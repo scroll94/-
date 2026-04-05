@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Карточки для Кариночки 💖</title>
+<title>Карточки для любимой Кариночки 💖</title>
 <style>
 body {
   margin: 0;
@@ -38,7 +38,7 @@ button:hover { background: #ff1a66; }
 
 </style>
 </head>
-<body><h2>💖 Карточки для Кариночки 💖</h2><div class="card" id="card">
+<body><h2>💖 Карточки для любимой Кариночки 💖</h2><div class="card" id="card">
   <div id="cardInner" class="inner">
     <div class="front" id="frontText">Загрузка...</div>
     <div class="back" id="backText"></div>
@@ -92,7 +92,7 @@ function flipCard() {
 
 function nextCard() {
   if (!flipped) {
-    alert("Сначала переверни карточку 💔");
+    alert("Сначала переверни карточку котик 💔");
     return;
   }
 
@@ -100,7 +100,7 @@ function nextCard() {
   current++;
 
   if (current >= cards.length) {
-    document.getElementById("stats").innerText = "💖 Ты прошла все карточки!";
+    document.getElementById("stats").innerText = "💖 Ты прошла все карточки ты умничка";
     current = 0;
     viewed = 0;
   }
